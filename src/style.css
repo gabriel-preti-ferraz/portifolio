@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+    background: radial-gradient(circle, #615174, #0F0F0F)
+}
+
+section {
+    margin: 0 auto;
+    max-width: 95%;
+    padding: 0 5px;
+}
+
+#hero {
+    margin-top: 100px;
+}
+
+.bio h2 {
+    font-size: 2rem;
+    font-weight: 200;
+    color: white;
+    font-family: 'Source Code Pro', sans-serif;
+    margin-left: 500px;
+}
+
+.bio .dev h3 {
+    font-family: 'Lato', sans-serif;
+    margin-left: 500px;
+}
+
+.bio .dev #back {
+    font-size: 7rem;
+}
+
+.bio .dev #dev {
+    font-size: 8rem;
+}
+
+.bio p {
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    margin-right: 200px;
+}
+
+.bio .social {
+    font-size: 50px;
+    display: flex;
+    margin-right: 50px;
+}
+
+.bio .social a {
+    padding-left: 50px;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    color: #FEF3B9;
+}
+
+.bio .social a:hover {
+    color: white;
+    transform: scale(1.25, 1.25);
+}
+
+.bio-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 460px;
+}
