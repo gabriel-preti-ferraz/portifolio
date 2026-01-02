@@ -54,6 +54,11 @@
     transition: .2s;
 }
 
+#projects {
+    height: 100vh;
+    background: linear-gradient(to bottom, #cabfdf, #ecdfaa);
+}
+
 @media (max-width: 1024px) {
     #hero {
         padding: 3rem;
