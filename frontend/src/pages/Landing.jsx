@@ -1,8 +1,10 @@
 import "../css/Landing.css"
 import { BsLinkedin, BsGithub, BsFileEarmarkTextFill } from "react-icons/bs"
+import ShapeDivider from "../components/ShapeDivider"
 
 function Landing() {
     return (
+        <main>
         <section id="hero">
             <div className="hero-wrapper">
                 <h3>Oi 👋 eu sou o Gabriel</h3>
@@ -18,6 +20,10 @@ function Landing() {
                 <p>Desenvolvedor FullStack com habilidades em React e Express e experiência em banco de dados SQL. Familiarizado com metodologias ágeis e organização de projetos.</p>
             </div>
         </section>
+        <section id="projects">
+            <ShapeDivider one />
+        </section>
+        </main>
     )
 }
 
