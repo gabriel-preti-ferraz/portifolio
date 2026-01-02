@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --text: hsl(0 0% 5%);
+    --text-muted: hsl(0 0% 30%);
+    --text-light: hsl(0 0% 95%);
+    --border: hsl(0 0% 30%);
+    --gradient: linear-gradient(0deg, var(--bg) 95%, var(--bg-light));
+    --gradient-hover: linear-gradient(0deg, var(--bg), var(--bg-light));
+    --highlight: hsl(0 0% 100%);
+    --border-card: solid 1px var(--bg);
+    --shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.07), 0px 4px 4px hsla(0, 0%, 0%, 0.15);
+
+    --ff: "Inter", sans-serif;
+    --h1: 700 1.5rem / 1.2em var(--ff);
+    --h2: 700 1.25rem / 1.2em var(--ff);
+    --h3: 700 1.125rem / 1.4em var(--ff);
+    --h4: 700 1rem / 1.6em var(--ff);
+    --p: 400 1rem / 1.6em var(--ff);
+    --small: 400 0.75rem / 1.8em var(--ff);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--ff);
+    background: var(--bg-dark);
+    color: var(--text-muted);
+}
+
+h1 {
+    font: var(--h1);
+    color: var(--text)
+}
+
+h2 {
+    font: var(--h2);
+}
+
+h3 {
+    font: var(--h3);
+}
+
+h4 {
+    font: var(--h4);
+}
+
+p {
+    font: var(--p);
+}
+
+a {
+    text-decoration: none;
+    font: var(--p);
+    color: var(--text);
+}
+
+a:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.text-center {
+    text-align: center;
+}
