@@ -32,6 +32,10 @@ body {
     color: var(--text-muted);
 }
 
+section {
+    width: 100%;
+}
+
 h1 {
     font: var(--h1);
     color: var(--text)
