@@ -1,0 +1,55 @@
+#hero {
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(circle, #615174, #0f0f0f);
+    color: var(--text-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-wrapper {
+    width: 50vw;
+}
+
+.hero-wrapper > h3 {
+    color: #95839d;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero-wrapper > p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.hero-line {
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+#hero-stack {
+    font-size: 6.5rem;
+}
+
+#hero-dev {
+    font-size: 10rem;
+}
+
+.hero-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-icons > a {
+    color: #FEF3B9;
+    font-size: 3.5rem;
+}
+
+.hero-icons > a:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
